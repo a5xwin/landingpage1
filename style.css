@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    overflow: hidden;
+    position: relative;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+
+
+#page1 img {
+    position: absolute;
+    width: 25%;  /*used to adjust scale */
+    height: 100%; /*used to adjust scale */
+    top: 50%; /*used to adjust position */
+    right: -12%; /*used to adjust position */
+    transform: translate(-50%, -50%);
+}
+
+
+#page1 #nav {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 0%;
+    background-color: red;
+}
+
+#page1 #centrnav {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 0%;
+    background-color: red;
+}
+
+
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: greenyellow;
+}
+
